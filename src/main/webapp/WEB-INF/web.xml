@@ -7,16 +7,24 @@
         <servlet-name>homeServlet</servlet-name>
         <servlet-class>org.itstep.servlet.HomeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>studentServlet</servlet-name>
+        <servlet-class>org.itstep.servlet.StudentServlet</servlet-class>
+    </servlet>
 
 <!--    <servlet>-->
 <!--        <servlet-name>currentTime</servlet-name>-->
 <!--        <jsp-file>/time.jsp</jsp-file>-->
 <!--    </servlet>-->
-
+    <servlet-mapping>
+        <servlet-name>studentServlet</servlet-name>
+        <url-pattern>/student</url-pattern>
+    </servlet-mapping>
     <servlet-mapping>
         <servlet-name>homeServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+
 <!--    <servlet-mapping>-->
 <!--        <servlet-name>currentTime</servlet-name>-->
 <!--        <url-pattern>/time</url-pattern>-->
