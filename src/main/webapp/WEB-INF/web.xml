@@ -8,8 +8,17 @@
         <servlet-class>org.itstep.servlet.HomeServlet</servlet-class>
     </servlet>
 
+<!--    <servlet>-->
+<!--        <servlet-name>currentTime</servlet-name>-->
+<!--        <jsp-file>/time.jsp</jsp-file>-->
+<!--    </servlet>-->
+
     <servlet-mapping>
         <servlet-name>homeServlet</servlet-name>
         <url-pattern>/</url-pattern>
     </servlet-mapping>
+<!--    <servlet-mapping>-->
+<!--        <servlet-name>currentTime</servlet-name>-->
+<!--        <url-pattern>/time</url-pattern>-->
+<!--    </servlet-mapping>-->
 </web-app>
